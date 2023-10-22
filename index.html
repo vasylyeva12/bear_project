@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Form Bear</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <img src="./media/bear.svg" alt="bear">
+      <div class="form">
+        <form action="#" id="form" class="form_body">
+          <div class="title-container">
+            <h1 class="form_title">Create account</h1>
+            <nav class="icons">
+               <a href="#"><i class="fa-brands fa-facebook"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-brands fa-google"></i></a>
+            </nav>
+        </div>
+          <p class="title-text">Or register using email & password</p>
+          <hr>
+          <div class="form_item">
+            <label for="formName" class="form_label">Full name</label><br />
+            <input id="formName" type="text" name="name" class="form_input" />
+          </div>
+          <div class="form_item">
+            <label for="formEmail" class="form_label">Email address</label
+            ><br />
+            <input id="formEmail" type="text" name="email" class="form_input" />
+          </div>
+          <div class="form_item">
+            <label for="formCreatePass" class="form_label"
+              >Create password</label
+            ><br />
+            <input
+              id="formCreatePass"
+              type="text"
+              name="create_pass"
+              class="form_input"
+            />
+          </div>
+          <div class="form_item">
+            <label for="formConfirmPass" class="form_label"
+              >Confirm password</label
+            ><br />
+            <input
+              id="formConfirmPass"
+              type="text"
+              name="confirm-pass"
+              class="form_input"
+            />
+          </div>
+          <div class="checkbox">
+          <input checked type="checkbox" id="formAgreement" name="agreement" class="checkbox_input" />
+          <label for="formAgreement" class="checkbox_label"> I agree to the <span>terms</span>  & <span>privacy policy</span> </label><br />
+        </div>
+        <button type="submit"  class="form_button">Register</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

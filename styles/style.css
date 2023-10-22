@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400; 
+    max-width: 1440px;
+    height: 1024px;
+}
+
+:root{
+    --color-blue-03: #2D76E2;
+    --color-blue-01: #0A55C6;
+    --color-light-grey-01:#FCFCFC;
+    --color-light-grey-02:#FBFAFA; 
+    --color-light-grey-03:#F6F6F6; 
+    --color-black-01: #151718;
+    --color-black-02: #2D2F30;
+    --color-black-03: #414344;
+    --color-black-04: #676767;
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.title-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+    margin-top: 1.0625rem;
+}
+
+.form{
+    margin: 103px auto;
+}
+
+.form_title{
+    font-size:1.56rm;
+    font-weight: 700;
+}
+.title-text{
+    font-size: 14px;
+    margin: 1.0625rem auto;
+}
+
+.form_item{
+    margin: 0px 0px 20px 0px;
+}
+
+.form_label{
+    display: block;
+   
+}
+
+hr{
+    margin-bottom: 1.6875rem;
+}
+
+.form_input{
+    width: 367px;
+    height: 60px; 
+    border-radius: 4px;
+}
+
+
+
+.checkbox{
+    margin: 49px auto;
+}
+.checkbox_input{
+    margin-right: 4.375rem;
+}
+
+span{
+    color: var(--color-blue-03);
+}
+.form_button{
+    border-radius: 4px;
+    width: 367px;
+    height: 60px;
+    padding: 21px 150px;
+    font-weight: 700;
+    
+}
